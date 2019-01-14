@@ -1,0 +1,18 @@
+﻿  
+  C:\Users\tevfik\source\repos\cuda_atom_2\cuda_atom_2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -dlink -o x64\Debug\cuda_atom_2.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 64 x64\Debug\kernel.cu.obj 
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  kernel.cu.obj
+     Creating library C:\Users\tevfik\source\repos\cuda_atom_2\x64\Debug\cuda_atom_2.lib and object C:\Users\tevfik\source\repos\cuda_atom_2\x64\Debug\cuda_atom_2.exp
+  cuda_atom_2.vcxproj -> C:\Users\tevfik\source\repos\cuda_atom_2\x64\Debug\cuda_atom_2.exe
